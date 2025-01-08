@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,tnas.link
 DOMAIN-SUFFIX,tnas.online
 DOMAIN,yifan.im,no-resolve
 DOMAIN,justg.yifan.im,no-resolve
+DOMAIN-SUFFIX,terra-master.com，no-resolve
 DOMAIN-SUFFIX,easteastday.com,no-resolve
 IP-CIDR,59.203.0.0/16
 IP-CIDR,39.145.0.129/24
