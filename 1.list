@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,sumsub.com
 DOMAIN-SUFFIX,binance.org
 DOMAIN-SUFFIX,bitmex.com
 DOMAIN-SUFFIX,pionex.com
@@ -75,5 +76,6 @@ DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,tradingview.com
+
 
 
