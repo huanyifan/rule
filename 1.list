@@ -1,4 +1,7 @@
 DOMAIN,lu.yifan.im
+DOMAIN,*bybit*.*
+DOMAIN,*.*bybit*.*
+
 DOMAIN-SUFFIX,yifan.im
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,okex.com
@@ -6,8 +9,7 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,mexc.com
-DOMAIN-SUFFIX,*bybit*.*
-DOMAIN-SUFFIX,*.*bybit*.*
+DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,sumsub.com
 DOMAIN-SUFFIX,binance.org
