@@ -1,6 +1,6 @@
 DOMAIN,lu.yifan.im
-DOMAIN,*bybit*.*
-DOMAIN,*.*bybit*.*
+DOMAIN,*by*.*
+DOMAIN,*.*by*.*
 
 DOMAIN-SUFFIX,yifan.im
 DOMAIN-SUFFIX,openai.com
