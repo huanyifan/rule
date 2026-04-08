@@ -6,7 +6,8 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,mexc.com
-DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,*bybit*.*
+DOMAIN-SUFFIX,*.*bybit*.*
 DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,sumsub.com
 DOMAIN-SUFFIX,binance.org
