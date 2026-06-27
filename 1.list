@@ -1,86 +1,114 @@
-DOMAIN,lu.yifan.im
-DOMAIN,*by*.*
-DOMAIN,*.*by*.*
+# Crypto 规则集（合并自原 1.list + App 混淆域名）
+# 引用: RULE-SET,<raw>/1.list,Crypto,"update-interval=86400"
+# 已剔除: Surge 不支持的 *by*.* 通配 / 非币圈条目(yifan.im等) / ftx(已倒闭) / 内部重复
 
-DOMAIN-SUFFIX,yifan.im
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,huobi.com
-DOMAIN-SUFFIX,mexc.com
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybitglobal.com
-DOMAIN-SUFFIX,sumsub.com
-DOMAIN-SUFFIX,binance.org
-DOMAIN-SUFFIX,bitmex.com
-DOMAIN-SUFFIX,pionex.com
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,dydx.exchange
-DOMAIN-SUFFIX,feixiaohao.co
-DOMAIN-SUFFIX,feixiaohao.com
-DOMAIN-SUFFIX,fxhapp.com
-DOMAIN-SUFFIX,crastar.com
-DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,token.im
-DOMAIN-SUFFIX,tokenpocket.pro
-DOMAIN-SUFFIX,minerstat.com
-DOMAIN-SUFFIX,pexpay.com
-DOMAIN-SUFFIX,polymarket.com
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,fun.xyz
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
 
-DOMAIN-SUFFIX,v4speed.com
-
-DOMAIN-SUFFIX,bitcointalk.org
-
-# Wallet
-DOMAIN-SUFFIX,debank.com
-
-# Exchange
-DOMAIN-SUFFIX,aex.com
-DOMAIN-SUFFIX,bibox.com
-DOMAIN-SUFFIX,bitfinex.com
-DOMAIN-SUFFIX,bithumb.com
-DOMAIN-SUFFIX,bitmex.com
-DOMAIN-SUFFIX,bitstamp.net
-DOMAIN-SUFFIX,bittrex.com
+# Bybit（含 App 反封锁混淆域名）
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.org
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,coincheck.com
-DOMAIN-SUFFIX,coinone.co.kr
-DOMAIN-SUFFIX,ftx.com
-DOMAIN-SUFFIX,gate.io
-DOMAIN-SUFFIX,gemini.com
-DOMAIN-SUFFIX,korbit.co.kr
-DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,kucoin.com
-DOMAIN-SUFFIX,liquid.com
-DOMAIN-SUFFIX,pancakeswap.finance
-DOMAIN-SUFFIX,poloniex.com
-DOMAIN-SUFFIX,sushi.com
-DOMAIN-SUFFIX,uniswap.org
-DOMAIN-SUFFIX,zb.com
-# > Binance
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+
+# Binance 币安（含 App 混淆域名）
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.im
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,bnappzh.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,binancecnt.com
 DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnappzh.com
 DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,appsflayer.com
 
-# Explorer 
+# 其它主流交易所
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gateio.co
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bitmex.com
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,crypto.com
+DOMAIN-SUFFIX,pexpay.com
+DOMAIN-SUFFIX,pionex.com
+DOMAIN-SUFFIX,dydx.exchange
+DOMAIN-SUFFIX,polymarket.com
+
+# 亚太/法币区交易所（部分可能已停运，按需删）
+DOMAIN-SUFFIX,aex.com
+DOMAIN-SUFFIX,bibox.com
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,bittrex.com
+DOMAIN-SUFFIX,coincheck.com
+DOMAIN-SUFFIX,coinone.co.kr
+DOMAIN-SUFFIX,korbit.co.kr
+DOMAIN-SUFFIX,liquid.com
+DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,zb.com
+
+# KYC / 风控（交易所登录验证依赖）
+DOMAIN-SUFFIX,sumsub.com
+
+# DeFi / DEX / 钱包
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,pancakeswap.finance
+DOMAIN-SUFFIX,sushi.com
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,token.im
+DOMAIN-SUFFIX,tokenpocket.pro
+DOMAIN-SUFFIX,fun.xyz
+
+# 矿池
+DOMAIN-SUFFIX,f2pool.com
+DOMAIN-SUFFIX,minerstat.com
+
+# 行情 / 数据 / 链上浏览器
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,etherscan.io
-
-# Analysis
+DOMAIN-SUFFIX,dexscreener.com
+DOMAIN-SUFFIX,dextools.io
+DOMAIN-SUFFIX,feixiaohao.co
+DOMAIN-SUFFIX,feixiaohao.com
+DOMAIN-SUFFIX,fxhapp.com
+DOMAIN-SUFFIX,crastar.com
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,tradingview.com
-
-
+DOMAIN-SUFFIX,bitcointalk.org
 
