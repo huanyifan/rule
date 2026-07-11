@@ -1,0 +1,78 @@
+# 国内常用购物网站强制直连规则集(在 Surge 配置里以 DIRECT 策略引用)
+# 目的:避免购物类域名掉到默认代理出口、被判为境外访问("此商品暂不支持向您所在地区出售")
+# 用法:RULE-SET,https://raw.githubusercontent.com/huanyifan/rule/main/shopping.list,DIRECT
+# 放在自定义代理清单(ai/1/3.list)之前,以覆盖可能的误分流
+
+# 淘宝 / 天猫 / 闲鱼 / 阿里系
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,taobao.org
+DOMAIN-SUFFIX,taobao.net
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,tb.cn
+DOMAIN-SUFFIX,tbcdn.cn
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,taobaolive.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,cainiao.com.cn
+
+# 京东
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,3.cn
+DOMAIN-SUFFIX,360buy.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jcloudcs.com
+DOMAIN-SUFFIX,jddj.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jdwl.com
+
+# 苏宁
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,suning.cn
+DOMAIN-SUFFIX,cnsuning.com
+
+# 拼多多
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pdd.net
+
+# 唯品会
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,vipstatic.com
+DOMAIN-SUFFIX,appvipshop.com
+
+# 网易严选 / 考拉海购
+DOMAIN-SUFFIX,you.163.com
+DOMAIN-SUFFIX,kaola.com
+
+# 当当
+DOMAIN-SUFFIX,dangdang.com
+DOMAIN-SUFFIX,dangdang.com.cn
+
+# 国美
+DOMAIN-SUFFIX,gome.com.cn
+DOMAIN-SUFFIX,gomein.net
+DOMAIN-SUFFIX,atgome.com
+
+# 小米商城 / 有品
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,xiaomiyoupin.com
+
+# 得物
+DOMAIN-SUFFIX,dewu.com
+DOMAIN-SUFFIX,poizon.com
+DOMAIN-SUFFIX,dewucdn.com
