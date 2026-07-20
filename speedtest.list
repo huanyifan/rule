@@ -1,0 +1,14 @@
+# Speedtest 测速规则(基于 dler-io Speedtest.list 扩充)
+# Ookla Speedtest
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,ookla.com
+DOMAIN-KEYWORD,speedtest
+# Netflix fast.com(注意:实际测速下载流量走 nflxvideo.net,仍会命中 Netflix 规则)
+DOMAIN-SUFFIX,fast.com
+# Cloudflare
+DOMAIN-SUFFIX,speed.cloudflare.com
+# 其他
+DOMAIN,speed.dler.io
+# 仅对能看到明文 HTTP 头的流量生效(需 MITM),Apple TV 上基本不命中,保留兼容其他设备
+USER-AGENT,SpeedTest*
