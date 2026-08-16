@@ -7,3 +7,17 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,tonymacx86.com
 DOMAIN-SUFFIX,archive.org
+
+# 2026-08-17 实测 DNS 投毒(系统解析 vs Cloudflare DoH 比对确认)
+DOMAIN-SUFFIX,matrix.org
+DOMAIN-SUFFIX,deviantart.com
+DOMAIN-SUFFIX,z-lib.io
+DOMAIN-SUFFIX,theguardian.com
+DOMAIN-SUFFIX,dailymotion.com
+DOMAIN-SUFFIX,rentry.co
+DOMAIN-SUFFIX,wireguard.com
+DOMAIN-SUFFIX,openlibrary.org
+DOMAIN-SUFFIX,libgen.is
+# 同族补漏: wikipedia/wikimedia 已在 Proxy.list, annas-archive 连 DoH 都被拒
+DOMAIN-SUFFIX,wiktionary.org
+DOMAIN-SUFFIX,annas-archive.org
